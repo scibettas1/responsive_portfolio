@@ -14,6 +14,16 @@ button:focus {
     font-size: 10px;
 }
 
+.portfolio {
+    height: 200px;
+}
+.svg {
+    object-fit: cover;
+    vertical-align: middle;
+    width: 200px;
+    height: 200px
+}
+
 .overlay {
     position: absolute;
     left: 0px;
