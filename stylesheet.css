@@ -1,6 +1,9 @@
 header {
     position: relative;
 }
+.align {
+    margin: auto;
+}
 
 .row-padding {
     padding:10px;
