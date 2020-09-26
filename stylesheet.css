@@ -7,6 +7,12 @@ header {
     top: 3px;
     right: 15px;
 }
+button:focus {
+    outline: 5px auto whitesmoke;
+}
+.smaller {
+    font-size: 10px;
+}
 
 .overlay {
     position: absolute;
@@ -29,6 +35,9 @@ header {
 @media (max-width: 576px){
     .overlay {
         display: none; 
+}
+.fixed-bottom {
+    position: sticky;
 }
 }
 @media (min-width: 768px) {
