@@ -14,12 +14,10 @@ button:focus {
     font-size: 10px;
 }
 
-.portfolio {
-    height: 200px;
-}
 .svg {
     object-fit: cover;
     vertical-align: middle;
+    margin: auto;
     width: 200px;
     height: 200px
 }
