@@ -15,13 +15,13 @@
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
           </ul>  
@@ -41,11 +41,12 @@
 
         <h1 class="row align row-padding">Contact</h1>
 
-    <!---Contact Form--->
+    <!--Contact Form-->
         <form class="row-padding" action="mailer.php" method="POST">
           <div class="form-group">
             <label for="name">Name</label>
-            <input type="name" class="form-control feedback-input" id="name" placeholder="Name">
+            <input type="text" class="form-control feedback-input" id="name" placeholder="Name">
+          </div>
           <div class="form-group">
             <label for="email">Email Address</label>
             <input type="email" class="form-control feedback-input" id="email" placeholder="name@example.com">
@@ -57,7 +58,6 @@
           <button type="submit" class="btn mb-2 text-white bg-info" name="submit" value="SEND" id="send-button">Submit</button>
         </form>
 
-        </div>
       </section>
     
       <footer class="footer mt-auto py-3 fixed-bottom bg-secondary">
